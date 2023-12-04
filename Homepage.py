@@ -22,16 +22,6 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("What I Do")
-        st.write("##")
-        st.write(
-            """
-            The lead guitarist is the sonic architect of a band, crafting expressive solos, contributing unique style, 
-            and playing a pivotal role in defining the character and identity of the musical ensemble.
-
-            If you want to learn how to become a lead guitarist in your band, kindly watch his tutorial
-            """
-        )
-        st.write("[youtube tutorial >](https://youtu.be/UMaxzl18EyE?si=Xpydd-8ifpNAhAuS)")
+     
 
  
