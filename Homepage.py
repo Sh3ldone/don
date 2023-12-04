@@ -17,19 +17,7 @@ with st.container():
     st.markdown("<h1 style='text-align: right;'>Homepage</h1>", unsafe_allow_html=True)
     st.markdown("------")
 
-with st.container():
-    st.write("---")
-    left_column, right_column = st.columns(2)
-
-    with left_column:
-        # Add content to the left column
-        st.subheader("Left Column Content")
-        st.write("This is an example content for the left column.")
-
-    with right_column:
-        # Add content to the right column
-        st.subheader("Right Column Content")
-        st.write("This is an example content for the right column.")
+ 
 
 
  
